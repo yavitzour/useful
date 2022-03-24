@@ -34,3 +34,6 @@ xev
 find [find criteria] -delete
 find [find criteria] -exec rm {} \;
 find [find criteria] -print0 | xargs -0 rm
+
+# Add virtual env to jupyter
+python3 -m ipykernel install --user --name=blade_env
