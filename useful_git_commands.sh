@@ -8,7 +8,4 @@ git config --global alias.unstage 'reset HEAD --'
 git config --global alias.last 'log -1 HEAD'
 
 # Stage and commit in one line
-# git ci -a -m "message"
-#
-#
-#
+git ci -a -m "message"
