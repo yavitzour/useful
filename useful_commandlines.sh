@@ -37,3 +37,6 @@ find [find criteria] -print0 | xargs -0 rm
 
 # Add virtual env to jupyter
 python3 -m ipykernel install --user --name=blade_env
+
+# Solve ModuleNotFoundError: No module named 'uaclient.entitlements'
+sudo PYTHONPATH=/usr/lib/python3/dist-packages apt install -f
