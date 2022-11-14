@@ -4,4 +4,4 @@
 
 name=default
 git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.emacs.d.doom-${name}
-DOOMDIR=~/.dooom.d.${name} ~/.emacs.d.doom-${name}/bin/doom install
+DOOMDIR=~/.doom.d.${name} ~/.emacs.d.doom-${name}/bin/doom install
