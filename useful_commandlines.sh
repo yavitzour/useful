@@ -40,3 +40,6 @@ python3 -m ipykernel install --user --name=blade_env
 
 # Solve ModuleNotFoundError: No module named 'uaclient.entitlements'
 sudo PYTHONPATH=/usr/lib/python3/dist-packages apt install -f
+
+# remove pdf password
+qpdf --password=<password> --decrypt <input_pdf> <output_pdf>
